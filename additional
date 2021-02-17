@@ -1,4 +1,9 @@
 sudo apt install tmux
+#Additional tip: you can copy content from w3m with ctrl-b [ ctrl-space ctrl-w and past it to other tmux panel with ctrl-b ]
+
 sudo apt install w3m
+#Additional tip: you can open w3m images with shift-i
+
 sudo apt install ranger
+#Additional tip: you can use CDP https://github.com/AmosNimos/change-directory-plus instead 
 
