@@ -1,0 +1,48 @@
+#Install applications
+sudo apt update
+
+sudo apt install xdotool
+#set  as keyboard shortcut
+	/bin/bash -c  "sleep 0.5 && xdotool type --clearmodifiers 'password' && xdotool key KP_Enter"
+
+echo "set linenumbers" > ~/.config/nano/nanorc
+
+#Install applications
+sudo apt install cmus
+sudo apt install sox
+sudo apt install dmenu
+sudo apt install mpv
+sudo apt install git
+
+echo "
+
+# My custom alias
+alias py="python3"
+alias pip="pip3"
+alias getme="sudo apt install"
+alias bashrc="sudo nano ~/.bashrc"
+alias go="nautilus ."
+alias myip="hostname -I | awk '{print $1}'"
+alias close="shutdown +0"
+alias ptt="pdftotext -layout"
+
+#list video files
+vidl() {
+        mpv -fs $(ls *.mkv *.avi *.mp4 | dmenu -l 100)
+}
+#record screen with sound
+recs() {
+        ffmpeg -f x11grab -s 2560x1440 -i :0 -f alsa -i default ~/Videos/recs/$1.mkv
+}
+#record microphone
+mic() {
+        rec ~/Music/mic/$1.wav
+}
+#remove spaces in file name
+nospace() {
+        find -name "* *" | sort -rz | while read -d $'\0' f; do mv -v "$f" "$(dirname "$f")/$(basename "${f// /$1}")"; done
+}
+
+" >> ~/.bashrc
+
+sudo apt upgrade
