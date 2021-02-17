@@ -1,0 +1,4 @@
+sudo apt install tmux
+sudo apt install w3m
+sudo apt install ranger
+
