@@ -7,3 +7,5 @@ sudo apt install w3m
 sudo apt install ranger
 #Additional tip: you can use CDP https://github.com/AmosNimos/change-directory-plus instead 
 
+sudo apt install calibre
+#help read and convert pdf and epub files
