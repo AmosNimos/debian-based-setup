@@ -9,3 +9,9 @@ sudo apt install ranger
 
 sudo apt install calibre
 #help read and convert pdf and epub files
+
+sudo apt install gimp
+#to edit pictures
+
+sudo apt install jp2a
+#convert images to text images
