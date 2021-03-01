@@ -1,3 +1,6 @@
+sudo apt install awesome
+#tiling window manager
+
 sudo apt install tmux
 #Additional tip: you can copy content from w3m with ctrl-b [ ctrl-space ctrl-w and past it to other tmux panel with ctrl-b ]
 
@@ -15,3 +18,6 @@ sudo apt install gimp
 
 sudo apt install jp2a
 #convert images to text images
+
+sudo apt install rofi
+#application luncher
