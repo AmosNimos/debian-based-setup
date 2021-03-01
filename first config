@@ -1,6 +1,8 @@
 #Install applications
 sudo apt update
 
+sudo apt install lxappearance
+
 sudo apt install xdotool
 #set  as keyboard shortcut
 	/bin/bash -c  "sleep 0.5 && xdotool type --clearmodifiers 'password' && xdotool key KP_Enter"
