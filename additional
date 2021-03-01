@@ -21,3 +21,6 @@ sudo apt install jp2a
 
 sudo apt install rofi
 #application luncher
+
+sudo apt install gnome-tweak-tool
+#custumise gui application default theme.
