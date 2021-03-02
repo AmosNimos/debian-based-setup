@@ -30,3 +30,6 @@ sudo apt install gnome-tweak-tool
 
 sudo apt install xdotool
 #for auto-fill bash
+
+sudo apt install nethack-console
+#a terminal game because we all need to relax some time.
