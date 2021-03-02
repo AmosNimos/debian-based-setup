@@ -24,3 +24,6 @@ sudo apt install rofi
 
 sudo apt install gnome-tweak-tool
 #custumise gui application default theme.
+
+sudo apt install xdotool
+#for auto-fill bash
