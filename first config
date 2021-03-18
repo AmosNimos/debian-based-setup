@@ -12,6 +12,7 @@ sudo apt install sox
 sudo apt install dmenu
 sudo apt install mpv
 sudo apt install git
+sudo apt isntall pavucontrol
 
 echo "
 
