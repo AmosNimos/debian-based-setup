@@ -33,3 +33,6 @@ sudo apt install xdotool
 
 sudo apt install nethack-console
 #a terminal game because we all need to relax some time.
+
+sudo apt install libreoffice 
+#document work and shit
