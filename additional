@@ -36,3 +36,15 @@ sudo apt install nethack-console
 
 sudo apt install libreoffice 
 #document work and shit
+
+hakuneko
+#download manga scan, light-novel, webcomics
+
+sudo apt install krop
+#crops pdf
+
+sudo apt-get install pdftk
+#merge, rotate pdf 
+
+sudo apt install qpdf
+#merge
