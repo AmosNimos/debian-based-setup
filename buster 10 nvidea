@@ -1,0 +1,2 @@
+# Add non free contribution, to have access to nvidea f*cking driver!
+sed -i -e 's/deb-src http://deb.debian.org/debian/ buster main/deb-src http://deb.debian.org/debian/ buster main non-free contrib/g' /etc/apt/sources.list
