@@ -1,3 +1,5 @@
+# start by reading step 3 before starting
+
 1.
 
 # Add non free contribution, to have access to nvidea f*cking driver!
