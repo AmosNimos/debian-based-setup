@@ -1,2 +1,10 @@
 # Add non free contribution, to have access to nvidea f*cking driver!
 sed -i -e 's/deb-src http://deb.debian.org/debian/ buster main/deb-src http://deb.debian.org/debian/ buster main non-free contrib/g' /etc/apt/sources.list
+
+# Install nvidia-detect
+
+apt -y install nvidia-detect 
+
+or 
+
+https://packages.debian.org/buster/amd64/nvidia-detect/download
